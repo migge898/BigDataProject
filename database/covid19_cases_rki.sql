@@ -15,6 +15,8 @@ create table covid19_cases_rki (
 	_7_tage_inzidenz_raw varchar(20),
 	todesfaelle_raw varchar(20),
 
-	html_raw longtext
+	html_raw longtext,
+	
+	primary key (bundesland, zeit_abgerufen)
 	
 );
