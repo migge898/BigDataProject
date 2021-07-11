@@ -6,7 +6,7 @@ create table weather (
 	
 	country varchar(30) not null,
 	region varchar(30),
-	time_crawled timestamp not null,
+	time_crawled timestamp not null DEFAULT CURRENT_TIMESTAMP,
 	city varchar(30),
 	temperature float,
 	temperature_raw varchar(30),
