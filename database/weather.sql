@@ -11,7 +11,7 @@ create table weather (
 	temperature float,
 	temperature_raw varchar(30),
 	
-	weather varchar(30),
+	weather varchar(50),
 	
 	html_raw longtext,
 	
