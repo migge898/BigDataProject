@@ -4,9 +4,9 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 mydb = mysql.connector.connect(
-  host="",
-  user="",
- password="",auth_plugin='mysql_native_password',
+  host="localhost",
+  user="nodejs",
+ password="bigdatagruppe8",
     database="gr8covid"
 )
 
